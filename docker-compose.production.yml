@@ -14,9 +14,11 @@ services:
   backend:
     image: dartempire74/kittygram_backend
     env_file: .env
+    depends_on:
+      - db
     volumes:
       - static:/backend_static
-      - media:/media
+      - media:/app/media
   frontend:
     image: dartempire74/kittygram_frontend
     env_file: .env
@@ -30,4 +32,4 @@ services:
       - 9000:80
     volumes:
       - static:/staticfiles
-      - media:/media
+      - media:/app/media
