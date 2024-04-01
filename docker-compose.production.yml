@@ -28,6 +28,9 @@ services:
   gateway:
     image: dartempire74/kittygram_gateway
     env_file: .env
+    depends_on:
+      - backend
+      - frontend
     volumes:
       - static:/staticfiles
       - media:/app/media
