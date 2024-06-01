@@ -1,5 +1,3 @@
-[![Actions Status](https://github.com/DartEmpire74/kittygram_final/workflows/main.yml/badge.svg)](https://github.com/DartEmpire74/kittygram_final/actions)
-
 # Описание проекта 
 
 Проект `Kittygram` представляет из себя социальную сеть, в которой владельцы котиков могут делиться информацией о своих питомцах.
